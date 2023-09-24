@@ -23,7 +23,7 @@ class ExpressionParserTest {
             ExpressionPart.Number(5.0),
             ExpressionPart.Op(Operation.SUBTRACT),
             ExpressionPart.Number(3.0),
-            ExpressionPart.Op(Operation.Multiply),
+            ExpressionPart.Op(Operation.MULTIPLY),
             ExpressionPart.Number(4.0),
             ExpressionPart.Op(Operation.DIVIDE),
             ExpressionPart.Number(3.0),
@@ -43,7 +43,7 @@ class ExpressionParserTest {
             ExpressionPart.Op(Operation.SUBTRACT),
             ExpressionPart.Parentheses(ParenthesesType.Opening),
             ExpressionPart.Number(4.0),
-            ExpressionPart.Op(Operation.Multiply),
+            ExpressionPart.Op(Operation.MULTIPLY),
             ExpressionPart.Number(5.0),
             ExpressionPart.Parentheses(ParenthesesType.Closing),
         )
